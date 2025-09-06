@@ -297,4 +297,4 @@ class EvaluationDashboard:
             )
     
     def run(self, debug=True, port=8050):
-        self.app.run_server(debug=debug, port=port)
+        self.app.run(debug=debug, port=port)
