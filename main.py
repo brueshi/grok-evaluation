@@ -8,7 +8,7 @@ import os
 import sys
 from dotenv import load_dotenv
 from colorama import init, Fore, Style
-from dashboard_app import EnhancedEvaluationDashboardEvaluationDashboard
+from dashboard_app import EnhancedEvaluationDashboard
 from config import Config
 
 # Initialize colorama for colored output
