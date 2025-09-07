@@ -52,7 +52,7 @@ def main():
     
     try:
         # Create and run dashboard
-        dashboard = EvaluationDashboard(Config.XAI_API_KEY)
+        dashboard = EnhancedEvaluationDashboard(Config.XAI_API_KEY)
         
         print(f"{Fore.GREEN}✓ Dashboard initialized successfully{Style.RESET_ALL}")
         print(f"{Fore.YELLOW}➜ Open your browser at: {Fore.CYAN}http://localhost:{Config.DASHBOARD_PORT}{Style.RESET_ALL}")
